@@ -1,0 +1,47 @@
+===
+Token parsing rules
+===
+
+"The\" e \n. d" : +cla-s_s4
+
+Fred:class
+
+-lost()
+
++found()
+
+"Fred was here"( my in\)variant her ) {
+
+  Steve:class
+  go.here()
+
+}
+
+---
+
+(diagram
+  (statement
+    (identifier (string))
+    (object (identifier (name))))
+  (statement
+    (identifier (name))
+    (object (identifier (name))))
+  (statement
+   (identifier (name))
+   (self
+     (parameters)))
+  (statement
+    (identifier (name))
+    (self
+      (parameters)))
+  (statement
+    (identifier (string))
+    (self
+      (parameters)
+      (body
+        (statement
+          (identifier (name))
+          (object (identifier (name))))
+        (statement
+          (identifier (name))
+          (self (parameters))))))) 
